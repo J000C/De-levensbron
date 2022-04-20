@@ -1,0 +1,151 @@
+
+html,body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.container {
+  display: flex;
+  ;
+}
+.hero {
+  color:  #4CAF50;
+  font-size: 450%;
+  font-weight: 600;
+  
+}
+.top-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/andere/boerderij4K.jpg");
+  background-size: cover;
+  background-color: #f1f1f1;
+  padding: 40px;
+  display: flex;  
+  
+}
+.header {
+  padding: 10px 16px;
+  padding-left: 20px;
+  background: #555;
+  color: #f1f1f1;
+  /* margin-top: 0px; */
+    /* font-size: 21px;
+    text-align: center;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in; */
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+  
+  
+  
+}
+.sticky + .content {
+  padding-top: 10px;
+  
+}
+
+.hometext{
+  font-size: large;
+  margin: auto;
+  color: #4CAF50;
+  font-weight:900;
+  font-style: Georgia;
+  width: 200px;
+  height: 200px;
+  background:none;
+  position: relative;
+  animation: wandelende_staf 1.3s;
+  animation-fill-mode: forwards;
+}
+
+
+ 
+.headerbuttons{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: rgb(8, 8, 8);
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.headerbuttonright{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: rgb(8, 8, 8);
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 0%;
+  margin: 4px 2px;
+  cursor: pointer;
+  float:right;
+  color: #000000;
+  text-align: center;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  
+  
+}
+.headerbuttonright:hover {
+  background-color: #419440;;
+  color: rgb(255, 255, 255);
+  
+}
+.headerbuttons:hover {
+  background-color: #419440;;
+  color: rgb(255, 255, 255);
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:gray;
+  color: white;
+  text-align: center;
+  
+  display:table;
+  position: relative;
+}
+.bio_explainer{
+  color:#ffffff;
+  font-weight: bold;
+  float: left;
+  margin-left: 10px;
+}
+.footer_desiner{
+  float: right;
+  color:#ffffff;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+

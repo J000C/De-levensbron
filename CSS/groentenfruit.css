@@ -1,0 +1,158 @@
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 0px;
+    font-family: Arial;
+    
+  }
+  
+  /* Center website */
+  .main {
+    
+    margin: auto;
+    
+  }
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color:rgb(255, 0, 0);
+    border-radius: 50%;
+    
+    display: inline-block;
+  }
+  /* h1 {
+    font-size: 50px;
+    word-break: break-all;
+  } */
+  
+  .row {
+    margin: 10px -16px;
+    
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+    
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    
+    /* margin-left: 10px; */
+    display: none; 
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: flex;
+    clear: both;
+  }
+  .linktext{
+    color: black;
+    background-color: black;
+    text-decoration: black;
+  }
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+    margin: 12px;
+    border-radius: 20px;
+    background-color:rgb(202, 226, 202);
+    text-decoration: none;
+    
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  .magic_wizzard{
+    object-fit: fill;
+    border-radius: 0;
+    width: 20px;
+    height: 200px;
+    object-fit: cover;
+    cursor:pointer;
+    border-radius: 20px;
+  }
+  .content:hover{
+    color:white;
+    
+    background-color:rgb(98, 137, 98);
+    opacity:10;
+  }
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+    float:right;
+    margin: 12px;
+    border-radius: 4px;
+    font-size: larger;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+    font-size: larger;
+  }
+
+
+  
+
+
+.formcounter{
+  background-color: rgb(171, 171, 171);
+  width: 12%;
+}  
+
+
+.button[type=submit] {
+  width: 100%;
+  
+  background-color: #164391;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button[type=submit]:hover {
+  background-color: #28ba28;
+  color: black;
+}
+.prijs{
+  right: 10%;
+  position: fixed;
+  margin-right: 0%;
+  padding-right: 0%;
+}
+.quantity{
+  width: 12px;
+  color: #164391;
+}
+
+
+
+
+
